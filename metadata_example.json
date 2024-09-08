@@ -1,0 +1,58 @@
+{
+    "DeepFakeArtworks": {
+        "description": "A collection of deepfake artworks created by AI",
+        "type": "array",
+        "items": {
+            "type": "object",
+            "properties": {
+                "original artwork": {
+                    "type": "string",
+                    "description": "The title of the original artwork it's based upon"
+                },
+                "artist": {
+                    "type": "string",
+                    "description": "The artist who created the original artwork"
+                },
+                "date": {
+                    "type": "integer",
+                    "description": "The period when the original artwork was created"
+                },
+                "description": {
+                    "type": "string",
+                    "description": "A description of the artwork"
+                },
+                "image": {
+                    "type": "string",
+                    "description": "The URL of the artwork"
+                },
+                "original style": {
+                    "type": "string",
+                    "description": "The style of the original artwork"
+                },
+                "medium": {
+                    "type": "string",
+                    "description": "The medium used to create the original artwork"
+                },
+                "AI model": {
+                    "type": "string",
+                    "description": "The AI model used to create the deepfake artwork"
+                },
+                "deepfake image": {
+                    "type": "string",
+                    "description": "The URL of the image of the deepfake artwork"
+                }
+            },
+            "required": [
+                "original artwork",
+                "artist",
+                "date",
+                "description",
+                "image",
+                "original style",
+                "medium",
+                "AI model",
+                "deepfake image"
+            ]
+        }
+    }
+}
